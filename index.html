@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" >
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The World </h2>
+            <div class="line"></div>
+            <h1>WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!---Activities--->
+    <section class="events">
+        <div class="titles">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Offering adventurers the chance to experience the majestic Himalayas up<br>
+                    close and personal.It's not just a trek; it's an exploration of the
+                    highest peaks on Earth,a venture into the heart of Nepal's rich culture,
+                    and a test of one's endurance and spirit. </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Offering adventurers the chance to experience the majestic Himalayas up<br>
+                    close and personal.It's not just a trek; it's an exploration of the
+                    highest peaks on Earth,a venture into the heart of Nepal's rich culture,
+                    and a test of one's endurance and spirit.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Exploring the world isn't just about visiting new places—it's about challenging yourself,
+                immersing in different cultures, and discovering the beauty of our planet in ways you never
+                imagined.The Everest Camp Trek is the epitome of such an exploration, offering adventurers
+                a chance to walk in the footsteps of mountaineering legends, experience the raw beauty of the
+                Himalayas,and connect with a unique culture that thrives in the world's highest altitudes.</p>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>UPCOMING TOURS & DESTINATIONS</h1>
+             <div class="line"></div>
+            <p> 1.Everest Base Camp Trek
+                Embark on a 21-day journey through the stunning landscapes of the Himalayas, culminating at the iconic
+                Everest Base Camp. Perfect for adventurers seeking a blend of physical challenge and cultural immersion.<br>
+                2.Patagonia Explorer
+                Discover the wild beauty of Patagonia with a 16-day trek through Torres del Paine and Los Glaciares National
+                Park. Ideal for nature lovers and photography enthusiasts.<br>
+                3.African Safari Expedition
+                Experience the thrill of Africa's wildlife with a 15-day safari across Tanzania and Kenya. Includes visits to
+                Serengeti National Park and the Maasai Mara.</p>
+                <a href="#" class="ctn">Lear More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="img/img3.png" alt="">
+                <img src="img/img4.png" alt="">
+                <img src="img/img5.png" alt="">
+                <img src="img/img6.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <p>5th Avenue, Nairobi, Kenya | phone: +2547012345678 | Email: contact@gmail.com</p>
+    <p>Copyright &copy; 2024 Pro Adventure. All rights reserved.</p>
+</section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
